@@ -1,0 +1,89 @@
+.inner-box{
+    .bookmark-btn{
+
+        .loading-icon{
+            display: none;
+            width: 21px;
+            height: 21px;
+        }
+        &.active{
+            background-color: rgba(25, 103, 210, .1);
+            color: #1967D2;
+        }
+        &.loading{
+            .loading-icon{
+                display: flex;
+                margin: 0 auto;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+}
+
+.bc-map{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .leaflet-marker-pane .leaflet-marker-icon{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 6px solid rgba(255,255,255,0.5);
+        box-sizing: border-box;
+    }
+}
+
+.main-header.header-style-two  .menu-btn .icon{
+    color: #FFF;
+}
+.testimonial-block-two .thumb img{
+    height: 100%;
+    object-fit: cover;
+}
+.filters-outer input[type=checkbox], .filters-outer input[type=radio]{
+    position: absolute;
+}
+.job-section .tab-buttons{
+    overflow-x: auto;
+}
+.banner-section-four{
+    z-index: 1;
+}
+.sec-title-outer .link .fa{
+    margin-left: 5px;
+}
+.default-form .input-group > input[type="text"],
+.default-form .input-group > input[type="number"]{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.banner-section-seven .job-search-form form{
+    background-color: transparent;
+}
+.default-form .input-group .input-group-text{
+    border: 0;
+}
+.default-form .input-group .input-group-append .form-control{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #e9ecef;
+}
+@media(max-width: 1366px){
+    .job-search-form .form-group .theme-btn, .company-search-form .form-group .theme-btn{
+        min-width: 130px;
+    }
+}
+@media(max-width: 767px){
+    .banner-section-eight .job-search-form{
+        min-width: 0;
+    }
+    .category-banner{
+        padding: 15px;
+        height: auto !important;
+    }
+}

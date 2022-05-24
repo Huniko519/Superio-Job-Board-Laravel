@@ -1,0 +1,45 @@
+body {
+  direction: rtl;
+}
+
+.main-header .logo {
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+.main-menu .navigation > li {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.main-header .outer-box .btn-box a {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.login-item .is_login i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.login-item .is_login .avatar {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.banner-section .content-column .title-box {
+  text-align: right;
+}
+
+.banner-section .popular-searches {
+  text-align: right;
+}
+
+.banner-section .image-column .image-box {
+  margin-left: -170px;
+  padding-right: 90px;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=rtl.css.map */

@@ -1,0 +1,8 @@
+.payment-box .payment-options li .radio-option input:checked + label + .gateway_html{
+    display:block;
+}
+.payment-box .payment-options li .radio-option{
+    .gateway_html{
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "f-dev": "cross-env process.env.section=frontend mix",
+        "f-watch": "npm run f-dev watch",
+        "f-prod": "cross-env process.env.section=frontend mix --production"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.1",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.39",
+        "resolve-url-loader": "4.0.0",
+        "sass": "^1.43.5",
+        "sass-loader": "12.1.0",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@tinymce/tinymce-vue": "^3.2.0",
+        "axios": "^0.21.1",
+        "bootbox": "^5.5.2",
+        "bootstrap": "^4.6.0",
+        "eslint": "^8.12.0",
+        "font-awesome": "^4.7.0",
+        "he-tree-vue": "^1.1.2",
+        "ionicons": "^4.6.3",
+        "lodash": "^4.17.21",
+        "popper.js": "^1.16.1",
+        "vue": "^2.6.14",
+        "vue-form-generator": "^2.3.4",
+        "vuedraggable": "^2.23.2"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "/module/user/css/user.css": "/module/user/css/user.css",
+    "/module/order/css/checkout.css": "/module/order/css/checkout.css",
+    "/css/notification.css": "/css/notification.css",
+    "/css/rtl.css": "/css/rtl.css",
+    "/css/contact.css": "/css/contact.css",
+    "/css/app.css": "/css/app.css",
+    "/module/gig/css/gig.css": "/module/gig/css/gig.css",
+    "/module/social/css/social.css": "/module/social/css/social.css",
+    "/module/location/css/location.css": "/module/location/css/location.css",
+    "/module/media/css/browser.css": "/module/media/css/browser.css",
+    "/module/news/css/news.css": "/module/news/css/news.css",
+    "/module/user/css/profile.css": "/module/user/css/profile.css"
+}
